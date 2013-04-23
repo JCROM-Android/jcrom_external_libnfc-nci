@@ -68,7 +68,8 @@ const UINT8 *nfa_dm_ndef_wkt_uri_str_tbl[] = {
     (const UINT8*) "urn:epc:pat:", /* 0x20 */
     (const UINT8*) "urn:epc:raw:", /* 0x21 */
     (const UINT8*) "urn:epc:",     /* 0x22 */
-    (const UINT8*) "urn:nfc:"      /* 0x23 */
+    (const UINT8*) "urn:nfc:",     /* 0x23 */
+    (const UINT8*) "jcrom://"      /* 0x24 */
 };
 #define NFA_DM_NDEF_WKT_URI_STR_TBL_SIZE (sizeof (nfa_dm_ndef_wkt_uri_str_tbl) / sizeof (UINT8 *))
 
